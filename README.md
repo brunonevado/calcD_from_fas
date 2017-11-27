@@ -11,7 +11,7 @@ calcD_from_fas -folder /home/data -contigs all_contigs.txt -tests tests.txt -out
     -allsites: if 1, will use all sites from all files. if 0, will use only first abba/baba site from each fasta file.  
     -strict: if 1, will stop with an error if a species is missing in any fasta file. If 0, will skip that file.  
   
-Output: text file (to -outfile) with number of abba and babba sites, D-statistic, and Z-score.  
+Output: text file (to -outfile) with number of abba and baba sites, D-statistic, and Z-score.  
     
 Notes:  
     Positions with unknown bases are ignored.  
